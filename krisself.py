@@ -15,7 +15,7 @@ from googletrans import Translator
 
 kr = KRIS.LINE()
 #kr.login(qr=True)
-kr.login(token='')#r
+kr.login(token='EoajAuK67XvJXlRA2onc.yT2ChqpRlJtFWnXILcd8Ra.zLTLqYGKrXtZavPUjVAXP4E9yiueG/r9F77cGB4jPeQ=')#r
 kr.loginResult()
 
 print "╔════════════════════════════════════════════════════\n╠❂➣[KRIS BERHASIL LOGIN]\n╚════════════════════════════════════════════════════"
@@ -209,7 +209,7 @@ KAC=[kr]
 mid = kr.getProfile().mid
 
 Bots=[mid]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid]
+admin=["u62dd9c1d03eb2e34dfc0dc629420fcac",mid]
 
 wait = {
     "likeOn":False,
